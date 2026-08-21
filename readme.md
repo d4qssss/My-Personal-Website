@@ -1,10 +1,9 @@
 # Lern-Periode 1
 
-28.8 bis ?
+28.8 bis 18.09
 
 ## Grob-Planung
 
-...
 
 ## 28.8.2026
 
