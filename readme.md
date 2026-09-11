@@ -22,4 +22,4 @@ Ich mache einen Website über mich (Personal Portfolio Website)
 - [ ] Website testen, Fehler korrigieren. 
       
 
-☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
+
