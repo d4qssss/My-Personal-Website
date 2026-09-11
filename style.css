@@ -1,0 +1,138 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #111111;
+}
+
+.hero {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center; 
+}
+
+.hero-text {
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin: 10px 0;
+}
+
+.intro {
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111111;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+   opacity: 0.5;
+}
+
+.about {
+    min-height: 100vh;
+    padding: 100px 70px;
+    background-color: #fafafa;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.about-container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 520px;
+
+}
+
+.section-label {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin: 0 0 30px 0;
+}
+
+.about-text p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 320px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
