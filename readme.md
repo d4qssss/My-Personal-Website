@@ -61,16 +61,16 @@ Gemacht:
 - "About me" Bereich erstellt;
 - Text über mich eingefügt;
 - Ein eigenes Bild in die Website eingebaut
-   '''<div class="about-image">
+   ```<div class="about-image">
     <img src="IFSR26_14.jpg" alt="Photo of Daria">
-</div>'''
+</div>```
 
   Wichtige Fehler bei mir:
   Falsch:
- ''' <div class="about-image">
+ ``` <div class="about-image">
 </div>
 
-<img src="IFSR26_14.jpg" alt="Photo of Daria">'''
+<img src="IFSR26_14.jpg" alt="Photo of Daria">'''```
   
 Das Bild zuerst falsch eingebaut, weil der "img" Tag war ausserhalb von ".about-image", deshalb funktionierten die CSS Regeln für das Bild nicht. 
 
