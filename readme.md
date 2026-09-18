@@ -61,7 +61,7 @@ Gemacht:
 - "About me" Bereich erstellt;
 - Text über mich eingefügt;
 - Ein eigenes Bild in die Website eingebaut
-  <div class="about-image">
+   <div class="about-image">
     <img src="IFSR26_14.jpg" alt="Photo of Daria">
 </div>
 
@@ -121,8 +121,64 @@ Ziele:
 - [x] Galerie für "Modeling" vorbereiten.
 
 Gemacht:
-- Website mit Github pages veröffentlicht; Dabei gelernt, dass die Hauptdatei 'index.html'
-- 
+- Website mit Github pages veröffentlicht; Dabei gelernt, dass die Hauptdatei 'index.html' heissen muss und dass Dateipfade auf GitHub korrekt sein müssen. 
+- Einen Fehler mit dem Bildpfad gefunden
+  <img src="images/IFSR26_14.jpg"> funktioniert nur, wenn das Bild wirklich im Ordner images liegt. Da mein Bild direkt neben index.html liegt verwende ich:
+  <img src="IFSR26_14.jpg" alt="Photo of Daria">
+
+- Navigation, Schriftgrössen und Layout für kleinere Bildschirme angepasst
+
+  @media (max-width: 786px) {
+
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+}
+
+
+- Modeling Bereich erstellt und dabei einen html Fehler gefunden
+  Falsch: </section class="modeling" id="modeling">
+  Das war falsch, weil ein schliessender </section> Tag keine Klasse oder ID bekommt. 
+
+  Korrekt: </section>
+
+<section class="modeling" id="modeling">
+
+Danach konnte die Website wieder normal nach unten gescrollt werden. 
+
+
+- Galerie für 'Modeling' vorbereitet.
+
+
+## 18.09
+Ziele:
+[] Modeling Galerie mit Bilder füllen;
+[] Modeling Bereich optisch verbessern;
+[] Dance Bereich erstellen;
+[] Erste Java Script Funktion einbauen;
+[] Navigation und Scroll Verhalten verbessern;
+[] Fehler korrigieren
+
+Gemacht zu Hause am 11.09:
+- Drei einfache Modeling Bilder in die Gallerie einfügen:
+  <div class="modeling-gallery">
+    <img src="model1.jpg" alt="Modeling photo">
+    <img src="model2.jpg" alt="Modeling photo">
+    <img src="model3.jpg" alt="Modeling photo">
+</div>
+
+- Bilder mit CSS einheitlich darstellen
       
 
 
