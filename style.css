@@ -359,3 +359,75 @@ body {
     object-position: center;
     display: block;
 }
+/* DANCE SECTION */
+
+.dance {
+    min-height: 100vh;
+    padding: 100px 70px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+.dance-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dance-header {
+    margin-bottom: 50px;
+}
+
+.dance-header h2 {
+    font-size: 52px;
+    margin: 10px 0;
+}
+
+.dance-content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.dance-text {
+    max-width: 650px;
+}
+
+.dance-text p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.dance-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dance-box {
+    height: 520px;
+    background-color: #eeeeee;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+@media (max-width: 786px) {
+
+    .dance {
+        padding: 80px 25px;
+    }
+
+    .dance-header h2 {
+        font-size: 38px;
+    }
+
+    .dance-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .dance-box {
+        height: 400px;
+    }
+}
