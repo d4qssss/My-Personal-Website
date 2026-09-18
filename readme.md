@@ -31,7 +31,7 @@ Gemacht:
 (Startseite mit meinem Namen und kurzen Beschreibung erstellt);
 
 - Github Repository;
-- 
+  
 - HTML, CSS und Java Grundstruktur erstellt ('index.html', 'style.css', 'script.js');
   
 - CSS mit HTML verbunden (<link rel="stylesheet" href="style.css">) ;
