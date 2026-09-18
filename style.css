@@ -19,7 +19,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    text-align: center; 
+    text-align: center;
 }
 
 .hero-text {
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-links a:hover {
-   opacity: 0.5;
+    opacity: 0.5;
 }
 
 .about {
@@ -102,7 +102,6 @@ body {
 .about-text {
     flex: 1;
     max-width: 520px;
-
 }
 
 .section-label {
@@ -136,76 +135,9 @@ body {
     object-fit: contain;
     display: block;
 }
-@media (max-width: 786px) {
-    .navbar {
-        padding: 20px;
-        flex-direction: column;
-        gap: 15px;
-    }
 
-.nav-links {
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+/* MODELING */
 
-.nav-links a {
-    font-size: 14px;
-}
-
-.hero {
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.hero h1 {
-    font-size: 42px;
-}
-
-.intro {
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-
-.subtitle {
-    font-size: 17px;
-}
-
-.about {
-    padding: 80px 25px;
-}
-
-.about-container {
-    flex-direction: column;
-    gap: 40px;
-}
-
-.about-text {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-}
-
-.about-image img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-.modeling {
-    padding: 80px 25px;
-}
-
-.modeling-header h2 {
-    font-size: 38px;
-}
-.modeling-gallery {
-    grid-template-columns: 1fr;
-}
-.gallery-box {
-    height: 350px;
-}
-    
-}
 .modeling {
     min-height: 100vh;
     padding: 100px 70px;
@@ -228,7 +160,7 @@ body {
 }
 
 .modeling-content {
-   display: flex;
+    display: flex;
     flex-direction: column;
     gap: 50px;
 }
@@ -257,4 +189,86 @@ body {
     align-items: center;
 
     font-size: 16px;
+}
+
+/* MOBILE VERSION */
+
+@media (max-width: 786px) {
+
+    .navbar {
+        padding: 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    .intro {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+    }
+
+    .about {
+        padding: 80px 25px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .modeling {
+        padding: 80px 25px;
+    }
+
+    .modeling-header h2 {
+        font-size: 38px;
+    }
+
+    .modeling-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-box {
+        height: 350px;
+    }
 }
