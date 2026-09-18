@@ -7,6 +7,14 @@
 Ich mache einen Website über mich (Personal Portfolio Website). Ich brauche ihn für meine Modelling-Karierre. 
 Der Website soll aus mehreren Bereichen bestehen ("Home", "About", "Modeling", "Dance", "IT" und "Contact")
 
+Das habe ich schon gemacht:
+
+
+https://github.com/user-attachments/assets/7afc4211-b305-4c4e-97e8-df23282779f4
+
+
+
+
 ## 28.8.2026
 Ziele:
 - [x] Struktur der Website planen (welche Bereiche die Website haben soll)
