@@ -476,6 +476,12 @@ body {
 .it-text {
     max-width: 650px;s
 }
+.it-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
 
 .it-text p {
     font-size: 17px;
