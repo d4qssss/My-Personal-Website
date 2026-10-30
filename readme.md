@@ -208,4 +208,194 @@ Gemacht zu Hause am 11.09:
 - Bilder mit CSS einheitlich darstellen
       
 
+## 16.10
+Ziele:
+[] Weiter an meiner persönlichen website arbeiten;
+[] HTML-Struktur kontrollieren und Fehler korrigieren;
+[] Modeling-Bereich weiterentwickeln;
+[] Dance-Bereich vorbereiten;
+[] Grundlagen von Random in C# lernen;
 
+Gemacht:
+- Zuerst habe ich nochmals die HTML-Struktur kontrolliert. Dabei habe ich gemerkt, dass schon kleine Fehler bei <section> oder <div> einen grossen Einfluss auf die ganze Website haben können.
+Zum Beispiel hatte ich beim Modeling-Bereich zuerst einen falschen Section-Tag:
+```
+</section class="modeling" id="modeling">
+```
+Danach habe ich ihn korrigiert:
+```
+</section>
+<section class="modeling" id="modeling">
+```
+Dadurch funktioniert auch der Link Modeling in meiner Navigation wieder richtig.
+Meine Navigation verbindet jetzt die verschiedenen Bereiche der Website:
+```
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#modeling">Modeling</a>
+<a href="#dance">Dance</a>
+<a href="#it">IT</a>
+<a href="#contact">Contact</a>
+```
+- Ich habe auch weiter am Modeling Bereich gearbeitet. Dort habe ich eine Galerie mit mehreren Bildern erstellt.
+```
+<div class="modeling-gallery">
+
+    <div class="gallery-box">
+        <img src="image1.jpg" alt="Modeling photo 1">
+    </div>
+
+    <div class="gallery-box">
+        <img src="image2.jpg" alt="Modeling photo 2">
+    </div>
+
+    <div class="gallery-box">
+        <img src="image3.jpg" alt="Modeling photo 3">
+    </div>
+
+</div>
+```
+Am Anfang hatten die Bilder verschiedene Grössen, weil die originalen Fotos unterschiedliche Formate haben. Deshalb habe ich sie mit CSS in gleich grosse Bereiche angepasst. 
+```
+.gallery-box {
+    height: 560px;
+    overflow: hidden;
+}
+
+.gallery-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+```
+Jetzt sieht die Galerie viel besser und ordentlicher aus. 
+
+- Danach habe ich mit dem nächsten Bereich der Website angefangen: 'Dance'.
+Dort habe ich bereits einen Titel, einen kurzen Text und 2 Plätze für Tanzbilder erstellt
+```
+<section class="dance" id="dance">
+
+    <div class="dance-container">
+
+        <div class="dance-header">
+            <p class="section-label">Dance</p>
+            <h2>My passion for dance</h2>
+        </div>
+
+    </div>
+
+</section>
+```
+Die richtige Tanzbilder möchte ich später noch auswählen und hinzufügen. 
+
+- Neben meiner Website habe ich mich heute auch mit C# beschäftigt. Ich habe Klasse Random kennengelernt. Ein einfaches Beispiel:
+```
+Random random = new Random();
+
+int computerzahl = random.Next(1, 51);
+```
+Damit erstellt das Programm eine zufällige Zahl zwischen 1 und 50. 
+Danach habe ich versucht, diese Funktion in ein kleines Programm einzubauen, bei dem der Benutzer eine Zahl eingeben muss. 
+```
+Console.WriteLine("Position eingeben: ");
+int guesser = Convert.ToInt32(Console.ReadLine());
+```
+Damit kann das Programm die Eingabe vom Benutzer lesen und als int speichern. 
+Ich habe auch mit while-Schleife gearbeitet:
+```
+while (guesser != computerzahl)
+{
+    // weitere Versuche
+}
+```
+Die Schleife läuft so lange weiter, bis die eingegebene Zahl mit der zufälligen Zahl übereinstimmt. 
+
+
+## 23.10
+Ziele:
+[] C# Randomizer weiter lernen;
+[] Mit Math.Abs() arbeiten;
+[] Hinweise abhängig von der Entfernung programmieren;
+[] Fehler suchen und korrigieren;
+[] So lange probieren den Randomizer Code zu schreiben, bis ich es ohne Fehler und ganz selbständig schreiben kann. 
+
+Gemacht:
+- Zuerst musste ich die Entfernung zwischen der eingegebenen Zahl und der zufälligen Zahl berechnen:
+  ```
+  int entfernung = Math.Abs(guesser - computerzahl);
+  ```
+Mit Math.Abs() bekomme ich immer positive Zahl. Das ist wichtig, weil die Entfernung nicht negativ sein soll. 
+
+- Danach habe ich verschiedene Bedingungen eingebaut:
+```
+  if (entfernung > 15)
+{
+    Console.WriteLine("Sehr weit weg!");
+}
+else if (entfernung >= 6)
+{
+    Console.WriteLine("Du kommst näher!");
+}
+else if (entfernung >= 1)
+{
+    Console.WriteLine("Sehr heiss!");
+}
+else
+{
+    Console.WriteLine("Schatz gefunden!");
+}
+```
+Dadurch reagiert das Programm unterschiedlich, je nachdem wie weit die eingegebene Zahl von der richtigen Zahl entfernt ist. 
+
+- Meine Fehler:
+  1. zuerst habe ich nicht ganz verstanden, wo die Berechnung von 'entfernung' stehen muss. Später habe ich gemerkt, dass sie nach jeder neuen Eingabe neu berechnet werden muss. Ausserdem habe ich manchmal einige { oder } vergessen.
+ 
+
+## 30.10
+Ziele:
+[] Einen Versuchszähler einbauen, damit das Programm zählt, wie viele Eingaben der Benutzer braucht;
+[] Eine maximale Anzahl von Versuchen festlegen und danach das Spiel beenden oder die richtige Zahl anzeigen;
+[] Den IT Bereich meiner Website weiter ausbauen und neue Inhalte ergänzen;
+[] Mit dem Contact Bereich anfangen und die Navigation sowie das Design weiter verbessern. 
+
+Gemacht:
+- Randomizer weiterentwicklung. Ich habe einen Versuchszähler eingebaut, damit das Programm zählt, wie viele Versuche der Benutzer braucht.
+Dafür habe ich zuerst eine neue Variable erstellt:
+```
+int versuche = 0;
+```
+Danach habe ich in der Schleife nach jeder Eingabe den Zähler erhöht. 
+```
+versuche ++;
+```
+So kann das Programm am Ende anzeigen, wie viele Versuche man gebraucht hat. Zum Beispiel:
+```
+Console.WriteLine("Du hast " + versuche + " Versuche gebraucht.");
+```
+
+- Danach habe ich an meiner Website weitergearbeitet. Ich habe den IT Bereich weiter ausgebaut und dort mehr Informationen über meine Schule und meine ersten IT Projekte ergänzt. Ich habe auch einen kleinen Untertitel eingebaut:
+  ```
+  <h3>My school has history.</h3>
+  ```
+  Danach habe ich den Text über die Alte Kanti ergänzt. Ich plane noch ein Paar Infos auch über den BBB hinzufügen.
+
+- Ich habe auch nochmals die Navigation kontrolliert und geprüft, ob die Links zu den verschiedenen Bereichen richtig funktionieren.
+  Zum Beispiel:
+```
+  <a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#modeling">Modeling</a>
+<a href="#dance">Dance</a>
+<a href="#it">IT</a>
+<a href="#contact">Contact</a>
+```
+
+
+## 06.11
+Ziele:
+[] Beim C# Randomizer eine Möglichkeit einbauen, das Spiel nach dem Ende nochmals neu zu starten;
+[] Die Ausgabe vom Randomizer verbessern, damit der Benutzer am Ende klar sieht, ob er gewonnen oder verloren hat und wie viele Versuche gebraucht wurden;
+[] Den Contact Bereich meiner persönlichen Website fertigstellen;
+[] Im IT Bereich ein weiteres kleines Projekt oder eine Beschreibung von meinen bisherigen Informatik Aufgaben ergänzen;
+[] Das Design der Website weiter verbessern und kontrollieren, ob alle Bereiche auf dem Handy und auf dem Laptop gut aussehen. 
