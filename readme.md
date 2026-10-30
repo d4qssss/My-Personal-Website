@@ -188,8 +188,8 @@ Danach konnte die Website wieder normal nach unten gescrollt werden.
 
 ## 18.09
 Ziele:
-[] Modeling Galerie mit Bilder füllen;
-[] Modeling Bereich optisch verbessern;
+[x] Modeling Galerie mit Bilder füllen;
+[x] Modeling Bereich optisch verbessern;
 [] Dance Bereich erstellen;
 [] Erste Java Script Funktion einbauen;
 [] Navigation und Scroll Verhalten verbessern;
