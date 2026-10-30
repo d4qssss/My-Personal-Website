@@ -188,12 +188,12 @@ Danach konnte die Website wieder normal nach unten gescrollt werden.
 
 ## 18.09
 Ziele:
-[ ] Modeling Galerie mit Bilder füllen;
-[ ] Modeling Bereich optisch verbessern;
-[ ] Dance Bereich erstellen;
-[ ] Erste Java Script Funktion einbauen;
-[ ] Navigation und Scroll Verhalten verbessern;
-[ ] Fehler korrigieren
+- [ ] Modeling Galerie mit Bilder füllen;
+- [ ] Modeling Bereich optisch verbessern;
+- [ ] Dance Bereich erstellen;
+- [ ] Erste Java Script Funktion einbauen;
+- [ ] Navigation und Scroll Verhalten verbessern;
+- [ ] Fehler korrigieren
 
 Gemacht zu Hause am 11.09:
 - Drei einfache Modeling Bilder in die Gallerie einfügen:
@@ -210,11 +210,11 @@ Gemacht zu Hause am 11.09:
 
 ## 16.10
 Ziele:
-[] Weiter an meiner persönlichen website arbeiten;
-[] HTML-Struktur kontrollieren und Fehler korrigieren;
-[] Modeling-Bereich weiterentwickeln;
-[] Dance-Bereich vorbereiten;
-[] Grundlagen von Random in C# lernen;
+- [ ] Weiter an meiner persönlichen website arbeiten;
+- [ ] HTML-Struktur kontrollieren und Fehler korrigieren;
+- [ ] Modeling-Bereich weiterentwickeln;
+- [ ] Dance-Bereich vorbereiten;
+- [ ] Grundlagen von Random in C# lernen;
 
 Gemacht:
 - Zuerst habe ich nochmals die HTML-Struktur kontrolliert. Dabei habe ich gemerkt, dass schon kleine Fehler bei <section> oder <div> einen grossen Einfluss auf die ganze Website haben können.
@@ -314,11 +314,11 @@ Die Schleife läuft so lange weiter, bis die eingegebene Zahl mit der zufällige
 
 ## 23.10
 Ziele:
-[] C# Randomizer weiter lernen;
-[] Mit Math.Abs() arbeiten;
-[] Hinweise abhängig von der Entfernung programmieren;
-[] Fehler suchen und korrigieren;
-[] So lange probieren den Randomizer Code zu schreiben, bis ich es ohne Fehler und ganz selbständig schreiben kann. 
+- [ ] C# Randomizer weiter lernen;
+- [ ] Mit Math.Abs() arbeiten;
+- [ ] Hinweise abhängig von der Entfernung programmieren;
+- [ ] Fehler suchen und korrigieren;
+- [ ] So lange probieren den Randomizer Code zu schreiben, bis ich es ohne Fehler und ganz selbständig schreiben kann. 
 
 Gemacht:
 - Zuerst musste ich die Entfernung zwischen der eingegebenen Zahl und der zufälligen Zahl berechnen:
@@ -349,15 +349,15 @@ else
 Dadurch reagiert das Programm unterschiedlich, je nachdem wie weit die eingegebene Zahl von der richtigen Zahl entfernt ist. 
 
 - Meine Fehler:
-  1. zuerst habe ich nicht ganz verstanden, wo die Berechnung von 'entfernung' stehen muss. Später habe ich gemerkt, dass sie nach jeder neuen Eingabe neu berechnet werden muss. Ausserdem habe ich manchmal einige { oder } vergessen.
+zuerst habe ich nicht ganz verstanden, wo die Berechnung von 'entfernung' stehen muss. Später habe ich gemerkt, dass sie nach jeder neuen Eingabe neu berechnet werden muss. Ausserdem habe ich manchmal einige { oder } vergessen.
  
 
 ## 30.10
 Ziele:
-[] Einen Versuchszähler einbauen, damit das Programm zählt, wie viele Eingaben der Benutzer braucht;
-[] Eine maximale Anzahl von Versuchen festlegen und danach das Spiel beenden oder die richtige Zahl anzeigen;
-[] Den IT Bereich meiner Website weiter ausbauen und neue Inhalte ergänzen;
-[] Mit dem Contact Bereich anfangen und die Navigation sowie das Design weiter verbessern. 
+- [ ] Einen Versuchszähler einbauen, damit das Programm zählt, wie viele Eingaben der Benutzer braucht;
+- [ ] Eine maximale Anzahl von Versuchen festlegen und danach das Spiel beenden oder die richtige Zahl anzeigen;
+- [ ] Den IT Bereich meiner Website weiter ausbauen und neue Inhalte ergänzen;
+- [ ] Mit dem Contact Bereich anfangen und die Navigation sowie das Design weiter verbessern. 
 
 Gemacht:
 - Randomizer weiterentwicklung. Ich habe einen Versuchszähler eingebaut, damit das Programm zählt, wie viele Versuche der Benutzer braucht.
@@ -394,8 +394,8 @@ Console.WriteLine("Du hast " + versuche + " Versuche gebraucht.");
 
 ## 06.11
 Ziele:
-[] Beim C# Randomizer eine Möglichkeit einbauen, das Spiel nach dem Ende nochmals neu zu starten;
-[] Die Ausgabe vom Randomizer verbessern, damit der Benutzer am Ende klar sieht, ob er gewonnen oder verloren hat und wie viele Versuche gebraucht wurden;
-[] Den Contact Bereich meiner persönlichen Website fertigstellen;
-[] Im IT Bereich ein weiteres kleines Projekt oder eine Beschreibung von meinen bisherigen Informatik Aufgaben ergänzen;
-[] Das Design der Website weiter verbessern und kontrollieren, ob alle Bereiche auf dem Handy und auf dem Laptop gut aussehen. 
+- [ ] Beim C# Randomizer eine Möglichkeit einbauen, das Spiel nach dem Ende nochmals neu zu starten;
+- [ ] Die Ausgabe vom Randomizer verbessern, damit der Benutzer am Ende klar sieht, ob er gewonnen oder verloren hat und wie viele Versuche gebraucht wurden;
+- [ ] Den Contact Bereich meiner persönlichen Website fertigstellen;
+- [ ] Im IT Bereich ein weiteres kleines Projekt oder eine Beschreibung von meinen bisherigen Informatik Aufgaben ergänzen;
+- [ ] Das Design der Website weiter verbessern und kontrollieren, ob alle Bereiche auf dem Handy und auf dem Laptop gut aussehen. 
