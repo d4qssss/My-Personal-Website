@@ -24,8 +24,9 @@ Ziele:
 
 Gemacht:
 - Struktur geplant und Bereiche ("Home", "About", "Modeling", "Dance", "IT", "Contact");
-''' <nav class="navbar">
-    <div class="logo">Daria</div>
+```
+<nav class="navbar">
+<div class="logo">Daria</div>
 
     <div class="nav-links">
         <a href="#home">Home</a>
@@ -35,26 +36,29 @@ Gemacht:
         <a href="#it">IT</a>
         <a href="#contact">Contact</a>
     </div>
-</nav> '''
-(Startseite mit meinem Namen und kurzen Beschreibung erstellt);
+</nav>
+```
+Startseite mit meinem Namen und kurzen Beschreibung erstellt;
 
 - Github Repository;
   
 - HTML, CSS und Java Grundstruktur erstellt ('index.html', 'style.css', 'script.js');
   
-- CSS mit HTML verbunden (<link rel="stylesheet" href="style.css">) ;
+- CSS mit HTML verbunden (```<link rel="stylesheet" href="style.css">```) ;
   
-- JavaScript Datei verbunden (<script src="script.js"></script>);
+- JavaScript Datei verbunden (```<script src="script.js"></script>```);
   
 - Schriftarten (Arial, sans-serif), Farben (#f7f7f7 (hell grau) und #fafafa (weiss))
   Positionen
- ''' .hero {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}'''
+  ```
+  .hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+  ```
 
 
 ## 4.9.2026
@@ -69,13 +73,16 @@ Gemacht:
 - "About me" Bereich erstellt;
 - Text über mich eingefügt;
 - Ein eigenes Bild in die Website eingebaut
-   ```<div class="about-image">
+```
+  <div class="about-image">
     <img src="IFSR26_14.jpg" alt="Photo of Daria">
-</div>```
+  </div>
+```
 
   Wichtige Fehler bei mir:
   Falsch:
- ``` <div class="about-image">
+```
+<div class="about-image">
 </div>
 
 <img src="IFSR26_14.jpg" alt="Photo of Daria">
