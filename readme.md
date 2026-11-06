@@ -383,7 +383,7 @@ Console.WriteLine("Du hast " + versuche + " Versuche gebraucht.");
 - Ich habe auch nochmals die Navigation kontrolliert und geprüft, ob die Links zu den verschiedenen Bereichen richtig funktionieren.
   Zum Beispiel:
 ```
-  <a href="#home">Home</a>
+<a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#modeling">Modeling</a>
 <a href="#dance">Dance</a>
@@ -398,4 +398,51 @@ Ziele:
 - [ ] Die Ausgabe vom Randomizer verbessern, damit der Benutzer am Ende klar sieht, ob er gewonnen oder verloren hat und wie viele Versuche gebraucht wurden;
 - [ ] Den Contact Bereich meiner persönlichen Website fertigstellen;
 - [ ] Im IT Bereich ein weiteres kleines Projekt oder eine Beschreibung von meinen bisherigen Informatik Aufgaben ergänzen;
-- [ ] Das Design der Website weiter verbessern und kontrollieren, ob alle Bereiche auf dem Handy und auf dem Laptop gut aussehen. 
+- [ ] Das Design der Website weiter verbessern und kontrollieren, ob alle Bereiche auf dem Handy und auf dem Laptop gut aussehen.
+
+Gemacht:
+
+Heute habe ich zuerst wieder an meinem C# Randomizer gearbeitet.
+Ich habe versucht, das Programm so zu machen, dass man nach dem Ende noch einmal spielen kann und nicht jedes Mal das Programm neu starten muss. Dafür habe ich nochmals mit Schleifen gearbeitet und geschaut, wie ich die Antwort vom Benutzer speichern kann.
+```
+Console.WriteLine("Willst du nochmal spielen? ja/nein");
+string antwort = Console.ReadLine();
+```
+Ich habe auch die Ausgabe am Ende verbessert. Jetzt soll man besser sehen, ob man gewonnen oder verloren hat und wie viele Versuche man gebraucht hat.
+```
+Console.WriteLine("Du hast gewonnen!");
+Console.WriteLine("Versuche: " + versuche);
+```
+
+Danach habe ich an meiner persönlichen *Website* weitergearbeitet.
+
+Ich habe den IT-Bereich weiter ausgebaut und dort mehr Informationen über meine Schule und meine ersten Projekte ergänzt. Ich möchte dort später nicht nur meine Website zeigen, sondern auch kleine C# Projekte.
+
+Zum Beispiel habe ich einen kleinen Untertitel eingefügt:
+```
+<h3>My school has history.</h3>
+```
+Ich habe auch weiter an der Struktur von der Website gearbeitet und kontrolliert, ob die Navigation richtig zu den einzelnen Bereichen führt.
+
+Zum Beispiel:
+```
+<a href="#modeling">Modeling</a>
+<a href="#dance">Dance</a>
+<a href="#it">IT</a>
+```
+Damit die Links funktionieren, müssen die IDs bei den Bereichen genau gleich heissen:
+```
+<section class="modeling" id="modeling">
+<section class="dance" id="dance">
+<section class="it" id="it">
+```
+Ausserdem habe ich nochmals kontrolliert, wie die Website auf dem Handy aussieht. Bei kleineren Bildschirmen sollen die Inhalte untereinander stehen und nicht aus dem Bildschirm rausgehen.
+
+Dafür benutze ich zum Beispiel:
+```
+@media (max-width: 786px) {
+    .project-cards {
+        grid-template-columns: 1fr;
+    }
+}
+```
