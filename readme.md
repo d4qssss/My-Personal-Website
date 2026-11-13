@@ -495,3 +495,12 @@ Im Schieberegler stand `@bind="tag"`, aber die Variable hiess `tage`. Deshalb ko
 **2. Division mit ganzen Zahlen**  
 Im Code stand `tage / 10`. Bei 35 Tagen war das Ergebnis `3` statt `3.50`. Ich habe `tage / 10m` geschrieben. So bleiben die Nachkommastellen erhalten.
 ```
+
+
+## 20.11
+Ziele:
+- [ ] Den Contact-Bereich fertigstellen und dort passende Links oder Kontaktmöglichkeiten einfügen.
+- [ ] Den IT-Bereich weiter ergänzen und dort meine bisherigen Projekte und Erfahrungen besser darstellen.
+- [ ] Den Dance-Bereich weiter ausbauen und später passende Bilder hinzufügen.
+- [ ] Das Design von allen Bereichen nochmals vergleichen und Abstände, Schriftgrössen und Farben einheitlicher machen.
+- [ ] Die ganze Website auf Computer und Smartphone testen und Fehler bei Navigation, Bildern oder Darstellung korrigieren.
