@@ -453,3 +453,45 @@ Dafür benutze ich zum Beispiel:
     }
 }
 ```
+
+## 13.11
+Ziele:
+Arbeit an einem Schulprojekt BOONDLY. BONDLY ist unser (Dasha, Emma, Angelina) Schulprojekt, das wir im Informatikunterricht zusammen entwickeln. Es ist eine Webanwendung, die wir mit C# und Blazor erstellen.
+
+Mit BOONDLY kann man den Marchzins und die Rendite einer Anleihe berechnen.
+
+Der Marchzins zeigt, wie viel Zins zwischen zwei Daten angefallen ist. Die Rendite zeigt, wie viel man mit der Anleihe gewonnen oder verloren hat, in Prozent.
+
+Wenn man die Zahlen ändert, sieht man sofort das neue Ergebnis. Das Info-Symbol erklärt die Rechnung. Man kann das Ergebnis als Datei herunterladen oder die Eingaben zurücksetzen.
+
+Meistens ich arbeite Schritt für Schritt an den Funktionen, am Design und daran, dass die Ergebnisse auf der Webseite richtig angezeigt werden. Das Projekt speichern und verwalte ich über GitHub, damit wir gemeinsam daran arbeiten können.
+
+- [ ] die Startseite von BONDLY neu gestalten.
+- [ ] ein Beispiel mit einem Schieberegler einbauen. Wenn man die Anzahl der Tage ändert, sieht man sofort den neuen Marchzins.
+- [ ] die Datumseingabe vereinfachen. Die Punkte werden automatisch ergänzt.
+- [ ] unsere drei Namen auf der Startseite ergänzen.
+- [ ] die neue Version auf GitHub Pages veröffentlichen.
+
+
+Gemacht:
+- [ ] Ich habe ein Beispiel mit einem Schieberegler eingebaut. Bei 30 Tagen zeigt er 3 CHF Marchzins an, bei 90 Tagen 9 CHF.
+```
+<input type="range" min="0" max="90" @bind="tage" @bind:event="oninput" />
+<output>@(tage / 10m) CHF</output>
+
+@code {
+    int tage = 30;
+}
+```
+
+- [ ] Ich habe die Datumseingabe verbessert. Bei 05032026 setzt sie die Punkte selbst und ergibt 05.03.2026 .
+- [ ] Unten auf der Startseite habe ich unsere Namen ergänzt: Dasha Yakovchuk, Emma Parietti und Angelina Bayeh
+- [ ] Ich habe die neue Version auf GitHub Pages veröffentlicht und geprüft, ob sich die Startseite über den öffentlichen Link öffnen lässt.
+- [ ] Fehler korrigieren:
+```
+1. Falscher Variablenname  
+Im Schieberegler stand `@bind="tag"`, aber die Variable hiess `tage`. Deshalb konnte das Projekt nicht kompiliert werden. Ich habe `@bind="tag"` zu `@bind="tage"` geändert.
+
+**2. Division mit ganzen Zahlen**  
+Im Code stand `tage / 10`. Bei 35 Tagen war das Ergebnis `3` statt `3.50`. Ich habe `tage / 10m` geschrieben. So bleiben die Nachkommastellen erhalten.
+```
