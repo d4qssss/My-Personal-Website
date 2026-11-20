@@ -504,3 +504,20 @@ Ziele:
 - [ ] Den Dance-Bereich weiter ausbauen und später passende Bilder hinzufügen.
 - [ ] Das Design von allen Bereichen nochmals vergleichen und Abstände, Schriftgrössen und Farben einheitlicher machen.
 - [ ] Die ganze Website auf Computer und Smartphone testen und Fehler bei Navigation, Bildern oder Darstellung korrigieren.
+
+Gemacht:
+## 20.11.2026
+
+### Gemacht
+
+Da wir am Mittwoch, 25.11., unsere Präsentation von unserem Programmierprojekt BONDLY haben, habe ich heute vor allem an der Vorbereitung für diese Präsentation gearbeitet.
+
+Ich habe die Präsentation weiter fertig gemacht und geschaut, dass die wichtigsten Teile von unserem Projekt verständlich erklärt werden. Dabei habe ich auch darauf geachtet, dass die Reihenfolge logisch ist und man gut versteht, was BONDLY macht und wie wir es programmiert haben.
+
+Zusätzlich habe ich einen vollständigen Text für die Präsentation geschrieben. Der Text soll uns helfen, beim Präsentieren nichts Wichtiges zu vergessen und die einzelnen Teile von BONDLY gut erklären zu können.
+
+Danach habe ich den Text so aufgeteilt, dass Emma, Angelina und ich daraus unsere eigenen Karteikarten machen können. So kann jede von uns ihren Teil vorbereiten und wir können die Präsentation gemeinsam üben.
+
+Mir war heute vor allem wichtig, dass die Präsentation nicht nur gut aussieht, sondern dass wir auch wirklich erklären können, was wir während dem Projekt gemacht haben, wie unser Programm funktioniert und welche Probleme wir beim Programmieren hatten.
+
+Am Ende habe ich nochmals kontrolliert, ob Präsentation und Text zusammenpassen und ob alle wichtigen Punkte von BONDLY vorkommen.
