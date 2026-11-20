@@ -505,8 +505,6 @@ Ziele:
 - [ ] Das Design von allen Bereichen nochmals vergleichen und Abstände, Schriftgrössen und Farben einheitlicher machen.
 - [ ] Die ganze Website auf Computer und Smartphone testen und Fehler bei Navigation, Bildern oder Darstellung korrigieren.
 
-Gemacht:
-## 20.11.2026
 
 ### Gemacht
 
