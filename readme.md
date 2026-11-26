@@ -519,3 +519,14 @@ Danach habe ich den Text so aufgeteilt, dass Emma, Angelina und ich daraus unser
 Mir war heute vor allem wichtig, dass die Präsentation nicht nur gut aussieht, sondern dass wir auch wirklich erklären können, was wir während dem Projekt gemacht haben, wie unser Programm funktioniert und welche Probleme wir beim Programmieren hatten.
 
 Am Ende habe ich nochmals kontrolliert, ob Präsentation und Text zusammenpassen und ob alle wichtigen Punkte von BONDLY vorkommen.
+
+
+## 27.11
+Ziele:
+Da bald die Prüfung im Modul 162 kommt, möchte ich diese Lernperiode hauptsächlich für die Prüfungsvorbereitung benutzen. Das Thema ist sehr wichtig, aber für mich auch nicht ganz einfach. Deshalb möchte ich die Grundlagen nochmals gut durchgehen und besonders die Sachen üben, bei denen ich noch unsicher bin.
+
+- [ ] Die wichtigsten Themen und Grundlagen aus Modul 162 nochmals wiederholen und meine Notizen ordnen.
+- [ ] Die Themen, die ich noch nicht ganz verstanden habe, nochmals genauer anschauen und mit Beispielen üben.
+- [ ] Praktische Aufgaben aus dem Modul lösen, damit ich nicht nur die Theorie kenne, sondern sie auch anwenden kann.
+- [ ] Alte Aufgaben und Übungen nochmals anschauen und meine früheren Fehler verstehen und korrigieren.
+- [ ] Am Ende eine kleine Zusammenfassung mit den wichtigsten Regeln, Begriffen und Sachen erstellen, die ich vor der Prüfung unbedingt können muss.
