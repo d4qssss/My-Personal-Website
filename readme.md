@@ -530,3 +530,15 @@ Da bald die Prüfung im Modul 162 kommt, möchte ich diese Lernperiode hauptsäc
 - [ ] Praktische Aufgaben aus dem Modul lösen, damit ich nicht nur die Theorie kenne, sondern sie auch anwenden kann.
 - [ ] Alte Aufgaben und Übungen nochmals anschauen und meine früheren Fehler verstehen und korrigieren.
 - [ ] Am Ende eine kleine Zusammenfassung mit den wichtigsten Regeln, Begriffen und Sachen erstellen, die ich vor der Prüfung unbedingt können muss.
+
+Gemacht:
+Zuerst habe ich meine bisherigen Unterlagen und Notizen nochmals angeschaut. Dabei habe ich gemerkt, welche Themen ich schon relativ gut verstanden habe und bei welchen ich noch Probleme habe.
+Danach habe ich mich mehr auf die schwierigeren Themen (Datenbanken) konzentriert und versucht, sie mit verschiedenen Beispielen besser zu verstehen. 
+
+
+## 04.12
+Ziele:
+- [ ] Die schwierigeren Themen aus Modul 162 nochmals wiederholen und offene Fragen klären
+- [ ] Weitere Übungsaufgaben selbstständig lösen und kontrollieren, ob ich den Stoff richtig verstanden habe
+- [ ] An meiner persönlichen Website weiterarbeiten und den Contact-Bereich fertigstellen
+- [ ] Den Modeling- und Dance-Bereich weiter verbessern, passende Bilder auswählen und das Design anpassen.
